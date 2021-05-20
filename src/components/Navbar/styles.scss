@@ -1,0 +1,37 @@
+:root {
+  --clr-white: #ffff;
+  --clr-primary: #f94444;
+  --clr-gray: #263238;
+  --clr-hover: #ffcccb;
+
+  --font-size: 16px;
+  --borer-radius: 0.2rem;
+}
+
+.navbar {
+  width: 100vw;
+  background-color: var(--clr-white);
+  margin: 0;
+  border-top: 5px solid var(--clr-primary);
+  z-index: 10;
+
+  .logo {
+    max-width: 250px;
+    max-height: 70px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .navbar {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+    .list-items {
+      gap: 0;
+    }
+
+    .logo {
+      display: none;
+    }
+  }
+}

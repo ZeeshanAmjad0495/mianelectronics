@@ -1,0 +1,24 @@
+.mr-auto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+  .nav-items {
+    display: flex;
+    align-items: center;
+
+    color: #000;
+    .link-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .icon {
+        font-size: 2em;
+        color: #000;
+      }
+    }
+  }
+}

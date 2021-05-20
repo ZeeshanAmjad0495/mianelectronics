@@ -1,0 +1,10 @@
+export { default as Homepage } from './Homepage/Homepage';
+export { default as Cartpage } from './Cartpage/Cartpage';
+export { default as ProductAC } from './Productspage/AirConditioners/AirConditioners';
+export { default as ProductACool } from './Productspage/AirCoolers/AirCoolers.jsx';
+export { default as ProductRefrig } from './Productspage/Refrigerators/Refrigerators';
+export { default as ProductKitchen } from './Productspage/KitchenAndGas/KitchenAndGas';
+export { default as ProductSmallApp } from './Productspage/SmallAppliances/SmallAppliances';
+export { default as ProductTV } from './Productspage/TVs/TVs';
+export { default as ProductWashers } from './Productspage/WashersAndDryers/WashersAndDryers';
+export { default as ProductWaterCooler } from './Productspage/WaterCoolers/WaterCoolers';

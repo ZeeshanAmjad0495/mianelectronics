@@ -1,0 +1,74 @@
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v83/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2)
+    format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+:root {
+  --clr-white: #ffff;
+  --clr-primary: #f94444;
+  --clr-gray: #263238;
+
+  --font-family: 'Roboto', sans-serif;
+  --font-size: 16px;
+  --borer-radius: 0.2rem;
+}
+
+#wrapper-main {
+  margin: 2em;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1em;
+  .mobile__logo__replacement {
+    font-size: 0em;
+  }
+  #search {
+    background-color: var(--clr-white);
+    border-radius: var(--borer-radius);
+    width: 15em;
+    height: 2.5em;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    color: var(--clr-gray);
+  }
+  .material-icons {
+    padding: 0 0.2em;
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header {
+    .mobile__logo__replacement {
+      text-align: center;
+      font-size: 4em;
+    }
+    .page__title {
+      display: none;
+    }
+  }
+}
